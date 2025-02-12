@@ -20,3 +20,14 @@ del eng_to_spa["no"]
 print(eng_to_spa)
 
 print(eng_to_spa.pop("two"))
+
+if "tree" in eng_to_spa:
+    print(eng_to_spa["tree"])
+else:
+    print("i don't know that word")
+
+for key, value in eng_to_spa:
+    print(f"{eng_to_spa[key]} means {key}")
+
+for key, value in eng_to_spa.items():
+    print(f"{value}means {key}")
