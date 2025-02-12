@@ -12,3 +12,9 @@ words= sentence.split()
 
 for word in words:
     print(eng_to_spa[word])
+
+eng_to_spa.update({"yes":"si", "no":"no"})
+
+print(eng_to_spa)
+del eng_to_spa["no"]
+print(eng_to_spa)
